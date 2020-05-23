@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 35px;
+    color: #545454;
+    font-family: Georgia;
+    font-weight: 400;
+}
+
+.wrapper {
+    width: 100%;
+    float: left;
+}
+
+.header {
+    width: 100%;
+    float: left;
+    background-image: url(../img/maket2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper_header {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navigations {
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.nav>li {
+    padding-left: 40px;
+    position: relative;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.logotext {
+    font-size: 32px;
+    color: #e8c5ac;
+    font-family: Georgia;
+    text-align: center;
+}
+
+.logoidtext {
+    font-size: 15px;
+    font-family: Arial;
+    color: #fff;
+    text-align: center;
+}
+
+.nav>li>a {
+    font-family: Arial;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav>li>a:hover {
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+
+h1 {
+    font-family: Georgia;
+    font-size: 44px;
+    font-weight: 400;
+    color: #fff;
+}
+
+h2 {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    color: #545454;
+}
+
+
+.wrp {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.wrapper_header_container {
+    width: 460px;
+    float: left;
+    margin-top: 250px;
+/*    margin-left: 8%;*/
+    margin-bottom: 270px;
+
+}
+
+.wrapper_header_container p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 44px;
+}
+
+.wrapper_header_container_text {
+    font-family: Arial;
+    color: #f1cdb3;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper_header_container_btn {
+    width: 200px;
+    height: 50px;
+    background: #f1cdb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.wrapper_header_container a {
+    text-decoration: none;
+    color: #2f2a29;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    float: left;
+    width: 100%;
+}
+
+.about_the_shelter {
+    float: left;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    _border: 1px solid green;
+}
+
+.about_the_shelter_img {
+    width: 300px;
+}
+
+.about_the_shelter_boxtext {
+    width: 23%;
+    margin-left: 135px;
+}
+
+.about_the_shelter_boxtext_text1{
+    font-size: 15px;
+    color: #545454;
+    font-family: Arial;
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 170%;
+}
+
+
+
+
+
+
+
+
+
+.help_the_shelter {
+    width: 100%;
+    float: left;
+    _border: 1px solid yellow;
+}
+
+.help_the_shelter_title {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    color: #545454;
+    font-family: Georgia;
+    font-weight: 400;
+}
+
+.help_the_shelter_container_img {
+    width: 100%;
+    float: left;
+
+}
+
+.help_the_shelter_container_img_top {
+    width: 100%;
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.help_the_shelter_container_img_bottom {
+    width: 100%;
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 83px;
+}
+
+.help_the_shelter_container_img_top_minibox {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 4% 0 4%;
+}
+
+.help_the_shelter_container_img span {
+    font-family: 'DM Mono', monospace;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.Donate_bkg{
+    width: 100%;
+    float: left;
+    background: #f6f6f6;
+}
+.Donate{
+    max-width: 1170px;
+    margin: 0 auto;
+    /*text-align: left;*/
+    /*margin-top: 63px;*/
+/*    margin-bottom: 89px;*/
+/*    border: 1px solid;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+
+
+    /*float: left;*/
+    /*width: 100%;*/
+    /*background: #f6f6f6;*/
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    _border: 1px solid green;
+}
+
+.Donate_text{
+    width: 31%;
+    margin-left: 65px;
+}
+
+.Donate_zagolovok{
+    width: 100%;
+    margin-top: 0px;
+    font-size: 35px;
+    color: #545454;
+    font-family: Georgia;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 1.3;
+}
+
+.Donate_card{
+    font-size: 17px;
+    color: #545454;
+    font-family: Georgia;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.Donate_btn{
+    width: 320px;
+    height: 47px;
+    font-size: 20px;
+    background: #f1cdb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-top: 15px;
+}
+
+.Donate_btn>img{
+    padding-right: 20px;
+}
+
+.Donate>img{
+    padding-top: 20px;
+}
+
+.Donate_mext{
+    font-size: 14px;
+    font-family: Arial;
+    color: #000;
+    opacity: 30%;
+    font-style: italic;
+    line-height: 1.3;
+}
+
+h5{
+    font-size: 14px;
+    font-family: Arial;
+    color: #000;
+    opacity: 30%;
+    font-style: italic;
+    line-height: 1.3;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    float: left;
+    background-image: url(../img/maket3.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid green;  
+}
+
+.wrapper_footer{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.final_text{
+    width: 25%;
+}
+
+.final_text2{
+    width: 25%;
+    margin-left: 150px;
+}
+
+.final_blok{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 75px;
+    _padding-top: 60px;
+    _align-items: center;
+    _justify-content: space-between;
+}
+
+.final_zagolovok{
+    width: 100%;
+    _float: left;
+    margin-top: 0px;
+    font-size: 35px;
+    color: #fff;
+    font-family: Georgia;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+}
+
+.email{
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    color: #f1cdb3;
+    padding-top: 35px;
+}
+
+.email>img{
+    margin-right: 18px;
+}
